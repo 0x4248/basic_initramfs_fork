@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# from https://jootamam.net/howto-initramfs-image.htm
-
 set -exuo pipefail
 
 my_dir="$(cd $(dirname $0) && pwd)"
