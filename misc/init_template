@@ -1,8 +1,5 @@
 #!/bin/sh
 
-# Thanks jootamam
-# https://jootamam.net/howto-initramfs-image.htm
-
 #Create all the symlinks to /bin/busybox
 /bin/busybox --install -s /bin/
 /bin/busybox --install -s /sbin/
